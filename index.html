@@ -8,14 +8,18 @@
 </head>
 <body>
 
-    <div class="wrapper">
+    <form class="wrapper">
         <h2>Temperature Converter</h2>
+        <div class="input-box">
             <label>Celsius</label>
-            <input type="number" id="celsius" />
+            <input type="number" onkeyup="celsiusToFahrenheit()" placeholder="Enter Celsius" Celsius/>
+        </div>
+        <div class="input-box">
             <label>Fahrenheit</label>
-            <input type="number" id="fahrenheit" />
-       
-    </div>
+            <input type="number" onkeyup="fahrenheitToCelsius()" placeholder="Enter Fahrenheit" Fahrenheit/>
+        </div> 
+        <button type="reset">Clear</button>
+    </form>
   
     <script src="./script/code.js"></script>
 </body>
