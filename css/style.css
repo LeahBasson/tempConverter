@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper{
+    width: 25rem;
+    background-color: rgb(203, 203, 255);
+    padding: 2rem;
+    margin: 12rem auto 12rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: .5vw .5vw .3vw rgb(5, 5, 39), inset .1vw 0vw .2vw white, 1vw 1vw .2vw rgb(101, 101, 135); 
+    border-radius: 8px;
+}
+
+h2{
+    width: 20rem;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+input{
+    padding: 10px 20px;
+}
